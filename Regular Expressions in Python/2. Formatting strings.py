@@ -126,7 +126,8 @@ print(f"{string1.replace('https', '')}")
 # Inside the f-string, get list_links length, multiply it by 100 and divide it by 120. Round the result to two decimals.
 
 # Divide the length of list by 120 rounded to two decimals
-print(____"Only ____% of the posts contain links")
+Q: print(____"Only ____% of the posts contain links")
+A: print(f"Only {(len(list_links)*100/120):.2f}% of the posts contain links")
 
 
 
